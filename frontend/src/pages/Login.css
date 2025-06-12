@@ -1,0 +1,144 @@
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Title */
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Login card */
+  .Login {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Form elements */
+  .Login-form h2 {
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+  }
+  
+  .Login-form img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .Login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .Login-form input[type="email"],
+  .Login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Remember me and Forgot Password */
+  .rem-for {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+  }
+  
+  .rem-for input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .rem-for a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .rem-for a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Submit button */
+  .Login-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #05a771;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Login-form button[type="submit"]:hover {
+    background-color: #03754f;
+}
+  
+  /* Error message */
+  .Login-form p {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Mobile responsiveness */
+@media (max-width: 425px) {
+    .Login {
+      width: 70%;
+      padding: 20px;
+    }
+  
+    .Login-form img {
+      width: 50%;
+      margin-bottom: 15px;
+    }
+  
+    .Login-form h2 {
+      font-size: 1.5em;
+    }
+  
+    .Login-form input[type="email"],
+    .Login-form input[type="password"] {
+      padding: 10px;
+      font-size: 1em;
+    }
+  
+    .rem-for {
+      align-items: flex-start;
+    }
+  
+    .rem-for label,
+    .rem-for a {
+      font-size: 0.9em;
+      margin-bottom: 5px;
+    }
+  
+    .Login-form button[type="submit"] {
+      font-size: 1em;
+      padding: 10px;
+    }
+  }
+  
